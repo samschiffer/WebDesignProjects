@@ -1,0 +1,52 @@
+html {
+    background: linear-gradient(rgb(96,206,247), #1B4B91, #1A222F);
+}
+
+.header {
+    background-color: #7E4A27;
+    text-align: center;
+    margin: 40px auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h1, p, li, figcaption {
+    color: bisque;
+    font-family:'Georgia', 'Arial Narrow', Arial, sans-serif;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    /* max-height: 400px; */
+    object-fit: cover;
+    object-position: 100% 0%;
+    aspect-ratio: 1 / 1;
+    border-radius: 20%;
+}
+
+#tribute-info {
+    background-color: #7E4A27;
+    margin: 5px auto;
+    width: 90%;
+    padding: 10px
+
+}
+
+.links {
+    background-color: #7E4A27;
+    margin: 20px auto;
+    width: 90%;
+    padding: 10px
+}
